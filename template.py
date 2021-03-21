@@ -1,5 +1,4 @@
 import os
-
 DIR=[os.path.join("data","raw"),
      os.path.join("data","processsed"),
      "data_given",
