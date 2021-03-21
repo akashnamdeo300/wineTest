@@ -10,7 +10,7 @@ def read_param(config_path):
 def get_data(config_path):
     config_file=read_param(config_path)
     df=pd.read_csv(config_file["data_source"]["s3_source"],sep=",",encoding="utf-8")
-    print(df)
+    return df
 
 
 if __name__=="__main__":

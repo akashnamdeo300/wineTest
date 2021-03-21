@@ -8,7 +8,7 @@ data_source:
   s3_source : data_given/winequality.csv
 
 load_data:
-  raw_data : data_given/winequalty.csv
+  raw_data : data/raw/winequality.csv
 
 split_data:
   train_data : data/processed/train_wine_quality.csv
